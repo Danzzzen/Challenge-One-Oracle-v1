@@ -16,15 +16,16 @@ header{
 }
 
 main{
-   
+   position: absolute;
+   width: 100%;
 }
 
 .section1{
     position: absolute;
     width: 800px;
     height: 600px;
-    margin-left: 300px;
-    margin-top: 100px;
+    left: 300px;
+    top: 100px;
 }
 
 .text-container{
@@ -241,3 +242,17 @@ main{
 
 /*Resposive design*/
 
+@media screen and (max-width:820px){
+
+.section1{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.section2{
+    position: absolute;
+    top: 800px;
+    left: 220px;
+}
+}
