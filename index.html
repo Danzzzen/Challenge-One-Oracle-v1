@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+ 
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width">
+      <link rel="stylesheet" href="reset.css" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Encriptador Alura</title>
+    </head>
+
+<body>
+
+  <header>
+    <img class="logo" src="Imagenes/logo.png" alt="logo">
+  </header>
+<main>
+    <section class="section1">
+
+      <div class="text-container">
+
+        <textarea placeholder="Ingrese el texto aquí"
+        class="text-box"></textarea>
+        
+        <div class="alert">
+          <img src="imagenes/alerta.svg" alt="alert">
+          <p>Solo letras minúsculas y sin acentos.</p>
+        </div> 
+
+        <div class="container-buttons">
+
+          <div class="btn-encriptar">
+          <a href="#" class="btn1 btn btn-white btn-animate">Encriptar</a>
+          </div>
+
+        <div class="btn-desencriptar">
+          <a href="#" class="btn2 btn btn-white btn-animate">Desencriptar</a>
+        </div>
+
+      </div>
+
+    </div>
+      </div>
+    </section>
+    <section class="section2">
+      <div class="img-container">
+        <img src="imagenes/gatodesk.png" alt="gato-desk">
+      </div>
+      <div class="parrafo-container">
+        <h3>Ningún mensaje fue encontrado.</h3> 
+        <p>Ingresa el texto que desea encriptar o desencriptar.</p>
+      </div>
+     <div class="contenedor-copiar">
+      <input type="button" class="btn-copiar btn-copiar2" value="Copiar">
+    </div>
+      <div class="container-result">
+        <p class="text-result"></p>
+      </div>
+    </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

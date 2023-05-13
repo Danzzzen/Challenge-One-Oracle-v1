@@ -1,0 +1,243 @@
+body {
+    background: #ffcaba;
+    position: relative;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+}
+
+.logo{
+    height: 50px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+main{
+   
+}
+
+.section1{
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.text-container{
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    
+   
+}
+
+.text-box{
+    font-size: 25px;
+    position: absolute;
+    color: black;
+    width: 100%;
+    height: 500px;
+    resize: none;
+    outline-style: none;
+    border: none;
+    background:  #ffcaba;
+}
+
+.text-box::placeholder{
+    color: black;
+}
+
+
+.btn-encriptar{
+  position: relative;
+  margin-left: 15px;
+}
+
+.btn-desencriptar{
+   position: relative;
+   margin-left: 440px;
+}
+
+.container-buttons{
+   width: 800px;
+   height: 100px;
+   margin-top: 600px;
+
+}
+
+.alert{
+    position: absolute;
+    top: 570px;
+    left: 20px;
+    display: flex;
+    color: black;
+    font-size: 20px;
+}
+
+.section2 {
+        display: block;
+        position: relative;
+        width: 400px;
+        height: 810px;
+        padding-right: 20px;
+        background-color: white;
+        box-sizing: border-box;
+        border-radius: 30px;
+        box-shadow: 0px 10px 28px -8px rgba(0, 0, 0, 0.50);
+        left: 1300px;
+        top: auto;
+}
+
+.container-result{
+    display: block;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    margin-left: 0px;
+    font-size: 25px;
+}
+
+.img-container{
+    position: static;
+    left: 200px;
+    top: 180px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding-left: 5px;
+}
+
+.parrafo-container{
+    position: static;
+    box-sizing: border-box;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+.parrafo-container h3{
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+
+.parrafo-container p{
+    font: 20px;
+    text-align: center;
+    color: black;
+    padding-top: 40px;
+}
+
+.btn-copiar{
+    width: 328px;
+    height: 67px;
+    border-radius: 100px;
+    background-color: #ffcaba;
+    color: black;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    top: 100px;
+    left: 35px;
+    transition: all .3s;
+}
+
+.btn-copiar:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor-copiar{
+    display: flex;
+    position: absolute;
+    top: 600px;
+    bottom: 100px;
+}
+
+.ocultar{
+    display: none;
+}
+
+
+
+
+
+
+
+.btn:link,
+.btn:visited {
+    
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .3s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    width: 260px;
+    height: 36px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: white;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/*Resposive design*/
+
