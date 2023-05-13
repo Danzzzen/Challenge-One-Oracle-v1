@@ -1,5 +1,5 @@
 body {
-    background: #ffcaba;
+    background: lightskyblue;
     position: relative;
     font-family: sans-serif;
 }
@@ -45,7 +45,7 @@ main{
     resize: none;
     outline-style: none;
     border: none;
-    background:  #ffcaba;
+    background:  lightskyblue;
 }
 
 .text-box::placeholder{
@@ -137,7 +137,7 @@ main{
     width: 328px;
     height: 67px;
     border-radius: 100px;
-    background-color: #ffcaba;
+    background-color: lightskyblue;
     color: black;
     border: none;
     font-size: 25px;
@@ -252,7 +252,7 @@ main{
 
 .section2{
     position: absolute;
-    top: 800px;
+    top: 750px;
     left: 220px;
 }
 }
